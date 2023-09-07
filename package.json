@@ -22,11 +22,13 @@
     "react-tsparticles": "^1.42.2",
     "typewriter-effect": "^2.18.2"
   },
+  "homepage": "https://zhiyiyi.github.io/zhiyiyi",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
